@@ -121,11 +121,31 @@ background-color: #03a3df;
 {
   overflow:scroll;
 }
-
 .social-media-share {
 grid-column-start:3;
 grid-column-end: 4;
 grid-row-start: 7;
 grid-row-end: 7;
 text-align: right;
+  }
+.checkbox-label{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    padding:0.2em;
+}
+.submit{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding:0.1em;
+  }
+label{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  padding:0.2em;
   }

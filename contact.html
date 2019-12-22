@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Straight to the Point Archery</title>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/ffae1e0fb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"> <img class="logo" src="images/archeryAcademy-logo-white.png" alt="Straight to the Point Archery logo">
+            <h1>Straight to the Point Archery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home / </a></li>
+                    <li><a href="classes.html">Classes /</a></li>
+                    <li><a href="#"> About /</a></li>
+                    <li><a href="contact.html">Contact Us </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="grid content">
+            <h3>Contact Us :</h3>
+            <form method="post">
+                <label for="fullname">
+                    Full Name:
+                    <input type="text" name="fullname" id="fullname" value="" required>
+                </label>
+                <label for="phone"> Phone:
+                    <input type="tel" name="phone" id="phone" required>
+                </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" value="">
+                </label>
+                <label for="age">How old are you?
+                    <input type="number" min="7" max="70" step="1" id="age" name="age">
+                </label>
+                <fieldset>
+                    <h3>Gender :</h3>
+                    <label for="male"> Male
+                        <input type="radio" name="male" value="male" id="male">
+                    </label>
+                    <label for="female">Female
+                        <input type="radio" name="female" value="female" id="female">
+                    </label>
+                </fieldset>
+
+                <h3>Location Preferences :</h3>
+
+                <label for="tacoma" class="checkbox-label">Tacoma</label>
+                <input type="checkbox" name="tacoma" id="tacoma" value="">
+                <label for="seattle" class="checkbox-label">Seattle</label>
+                <input type="checkbox" name="seattle" id="seattle" value="">
+                <label for="kent" class="checkbox-label">Kent</label>
+                <input type="checkbox" name="kent" id="kent" value="">
+                <label for="comments">Comments: </label>
+                <textarea name="comments" id="comments" rows="8" cols="80"></textarea>
+                <label for="submit"></label>
+                <input type="submit" name="submit" id="submit" value="Submit" class="submit">
+            </form>
+        </div>
+        <div class="footer photo"><img src="images/footerImage.jpg" alt="My test image">
+
+        </div>
+        <div class="social-media-share">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+</body>
+</html>
