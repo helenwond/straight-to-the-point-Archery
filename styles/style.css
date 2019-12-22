@@ -1,0 +1,131 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 0.3fr 0.3fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+}
+.grid {
+  background-color: #444;
+  color: #fff;
+  padding: 25px;
+  }
+.header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background-color: #03a3df;
+  grid-column-gap: 5px;
+  display: grid;
+}
+
+h1 {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-style: italic;
+}
+
+h2 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  color:#000000;
+}
+h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  color:#000000;
+}
+.logo {
+  grid-column: 1/1;
+  display: flex;
+}
+nav {
+  grid-column:3/3;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+li {
+font-size: 20px;
+font-weight: bold;
+font-family: Arial;
+display: inline;
+list-style-type: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+p{
+color: #000000;
+font-family: Arial;
+}
+.sidebar {
+  grid-column: 3 / 3;
+  grid-row: 2 / 6;
+  min-height: 400px;
+  background-color: #e9f7fc;
+}
+.photo > img {
+  width: 100%;
+  height: 200%;
+  display: flex;
+}
+
+.fa-linkedin{
+  font-size: 80px;
+}
+.fa-linkedin:hover{
+  font-size: 100px;
+  color: blue;
+}
+.fa-facebook{
+  font-size: 80px;
+}
+.fa-facebook:hover{
+  font-size: 100px;
+  color: blue;
+}
+.fa-twitter{
+  font-size: 80px;
+}
+.fa-twitter:hover{
+  font-size: 100px;
+  color: blue;
+}
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 7 / 7;
+height: 100px;
+background-color: #03a3df;
+}
+
+.content {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background: #ffffff;
+    height: 400px;
+    min-height: 500px;
+
+  }
+.classes-content
+{
+  overflow:scroll;
+}
+
+.social-media-share {
+grid-column-start:3;
+grid-column-end: 4;
+grid-row-start: 7;
+grid-row-end: 7;
+text-align: right;
+  }
